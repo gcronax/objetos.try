@@ -33,16 +33,6 @@ class Coche {
     static void muestraCoche() {
         System.out.println("coche "+numCoche);
     }
-    public static void main(String[] args) {
-        Coche c1,c2,c3,c4;
-        c1 =new Coche(100,"red");
 
-        muestraCoche();
-        c1.setRecorre(0.333);
-        System.out.println(c1.getAceleracion()+ "km/s velocidad y distancia m"+c1.getDistancia());
-        System.out.println("se decelera 20 km/s y se conduce durante una hora");
-        c1.setAceleracion(-20);
-        c1.setRecorre(1);
-        System.out.println(c1.getAceleracion()+ "km/s velocidad y distancia m"+c1.getDistancia());
-    }
+
 }
