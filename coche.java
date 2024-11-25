@@ -39,9 +39,10 @@ class Coche {
 
         muestraCoche();
         c1.setRecorre(0.333);
-        System.out.println(c1.getAceleracion()+ " "+c1.getDistancia());
+        System.out.println(c1.getAceleracion()+ "km/s velocidad y distancia m"+c1.getDistancia());
+        System.out.println("se decelera 20 km/s y se conduce durante una hora");
         c1.setAceleracion(-20);
         c1.setRecorre(1);
-        System.out.println(c1.getAceleracion()+ " "+c1.getDistancia());
+        System.out.println(c1.getAceleracion()+ "km/s velocidad y distancia m"+c1.getDistancia());
     }
 }
