@@ -8,8 +8,8 @@ class Coche {
         numCoche++;
     }
     public Coche( int a, String c) {
-        color= c;
-        aceleracion=a;
+        this.color= c;
+        this.aceleracion=a;
         nuevoCoche();
     }
 
@@ -23,7 +23,7 @@ class Coche {
     }
 
     public void setAceleracion(int a) {
-        aceleracion=aceleracion+a;
+        this.aceleracion=aceleracion+a;
     }
 
     public int getAceleracion() {
