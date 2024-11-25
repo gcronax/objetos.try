@@ -33,6 +33,9 @@ class Coche {
     static void muestraCoche() {
         System.out.println("coche "+numCoche);
     }
+    public String getColor() {
+        return color;
+    }
 
 
 }
